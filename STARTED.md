@@ -49,6 +49,11 @@ go get -u github.com/go-playground/validator/v10
 
 # 环境启动
 
+## 依赖下载
+本项目的所有的依赖都在` go.mod`中，可以使用命令一键安装
+```go
+go get
+```
 
 ## 数据库启动
 项目已经配置相关的数据库文件，需要直接运行` docker-compose.yml`即可，启动命令如下
