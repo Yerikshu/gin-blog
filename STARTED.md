@@ -2,6 +2,8 @@
 - docker（条件允许的话，建议配置docker加速器）
 - docker-compose
 
+## 确认权限
+先用ls -lha 确认是否有可执行权限，如果没有没有，则需要在管理员权限下的使用chmod进行授权
 
 ## 配置代理
 
@@ -52,7 +54,7 @@ go get -u github.com/go-playground/validator/v10
 ## 依赖下载
 本项目的所有的依赖都在` go.mod`中，可以使用命令一键安装
 ```go
-go get
+go get -u
 ```
 
 ## 数据库启动
